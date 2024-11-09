@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Extra Cargo
-      run: cargo add cargo-caw-publish
+      run: cargo install cargo-caw-publish
     - name: Run tests
       run: cargo test -p mkbkp --verbose
     - name: Publish
