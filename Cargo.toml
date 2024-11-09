@@ -2,6 +2,12 @@
 name = "mkbkp"
 version = "0.1.0"
 edition = "2021"
+authors = ["Ramon Moraes"]
+description = "dead simple command to append .bkp extension to a file"
+license = "MIT"
+documentation = "https://docs.rs/mkbkp/latest/nestac/"
+homepage = "https://github.com/rmoraes92/mkbkp"
+repository = "https://github.com/rmoraes92/mkbkp"
 
 [dependencies]
 anyhow = "1.0.92"
