@@ -18,7 +18,7 @@ jobs:
     - name: Extra Cargo
       run: cargo add cargo-caw-publish
     - name: Run tests
-      run: cargo test -p mkbkp --lib --verbose
+      run: cargo test -p mkbkp --verbose
     - name: Publish
       run: cargo caw-publish -p mkbkp
 
